@@ -1,0 +1,124 @@
+@media only screen and (max-width:1080px) {
+
+    /* Home page */
+    .posterImg_title {
+        font-weight: 500 !important;
+        font-size: 3rem !important;
+    }
+
+    .posterImg_runtime {
+        font-size: 1.5rem !important;
+    }
+
+
+    .posterImg_description {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width:936px) {
+
+    /* Navigation Part */
+
+    .headerRight {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .mobile-nav {
+        left:0 !important;
+        display: flex;
+    }
+
+    .mobile-nav a {
+        margin: 5px 10px;
+    }
+
+
+
+    /* Home Page */
+    .posterImg_title {
+        /* font-weight: 300 !important; */
+        font-size: 2rem !important;
+    }
+
+    .posterImg_runtime {
+        font-size: 1rem !important;
+    }
+
+
+    .posterImg_description {
+        font-size: 1rem;
+    }
+
+    /* Movie Detail Page */
+
+    .movie_backdrop {
+        height: 200px !important;
+    }
+
+    .movie_detail {
+        flex-direction: column;
+    }
+
+
+    .movie_poster {
+        display: none;
+    }
+
+    .movie_detailRight {
+        margin-top: 80px;
+        flex-direction: column;
+        height: 200px !important;
+    }
+
+    .movie_name {
+        font-size: 16px !important;
+    }
+
+
+    .text {
+        font-size: 14px !important;
+    }
+
+
+    .movie_links {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .movie_heading {
+        font-size:16px !important;
+    }
+
+    .movie_Button {
+        padding: 10px 20px !important;
+        margin-top: 20px;
+    }
+
+
+    .movie_production {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center !important;
+        margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width:520px) {
+
+    /* home Page */
+    .posterImg_title {
+        font-size: 1.5rem !important;
+    }
+
+    .posterImg_runtime {
+        font-size: 1rem !important;
+    }
+}

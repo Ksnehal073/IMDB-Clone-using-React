@@ -1,0 +1,49 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bars {
+    font-size: 25px;
+    display: none;
+}
+
+.bars a {
+    color: white !important;
+}
+
+.mobile-nav {
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    left: -100% !important;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 5000;
+    height: 100vh;
+}
+
+a>span {
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a>span:hover {
+    color: red;
+}
+
+a.active>span {
+    color: red;
+}
+
+.header_icon {
+    width: 80px;
+    cursor: pointer;
+}
